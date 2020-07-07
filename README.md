@@ -28,3 +28,19 @@ arului-apiservice API REST services using springboot JPA H2 hateoas HAL
 ![image](https://user-images.githubusercontent.com/56085499/86805841-2fdb6900-c070-11ea-9b3a-d8fd2656c68c.png)
 
 ![image](https://user-images.githubusercontent.com/56085499/86806040-631df800-c070-11ea-9e5d-6edd31c5d02f.png)
+
+Note:
+If any error during build/runtime error related to jsonpath comment below lines from pom.xml and try
+
+<!--<dependency>
+			<groupId>com.jayway.jsonpath</groupId>
+			<artifactId>json-path-assert</artifactId>
+			<version>2.4.0</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.jayway.jsonpath</groupId>
+			<artifactId>json-path</artifactId>
+			<version>2.4.0</version>
+			<scope>test</scope>
+		</dependency>-->
