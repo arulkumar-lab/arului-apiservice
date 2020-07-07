@@ -12,15 +12,15 @@ arului-apiservice API REST services using springboot JPA H2 hateoas HAL
 
 ```http://localhost:2020/arului-service/country```
 ```http://localhost:2020/arului-service/country?name=xyz```
-
+***
 <h3>PersonRepository - HATEOAS call using RepositoryRestResource</h3>
 
 ```http://localhost:2020/arului-service/people```
-
+***
 <h3>Item Controller - REST service call using H2 database engine</h3>
 
 ```http://localhost:2020/arului-service/item```
-
+***
 ![image](https://user-images.githubusercontent.com/56085499/86805428-c6f3f100-c06f-11ea-9c26-0f7b929839cc.png)
 
 ![image](https://user-images.githubusercontent.com/56085499/86805652-fb67ad00-c06f-11ea-89f6-248e1535bcee.png)
@@ -31,16 +31,17 @@ arului-apiservice API REST services using springboot JPA H2 hateoas HAL
 
 Note:
 If any error during build/runtime error related to jsonpath comment below lines from pom.xml and try
-
-'''<dependency>
-			<groupId>com.jayway.jsonpath</groupId>
-			<artifactId>json-path-assert</artifactId>
-			<version>2.4.0</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.jayway.jsonpath</groupId>
-			<artifactId>json-path</artifactId>
-			<version>2.4.0</version>
-			<scope>test</scope>
-		</dependency>'''
+<pre><code>
+&lt;dependency>
+			&lt;groupId>com.jayway.jsonpath&lt;/groupId>
+			&lt;artifactId>json-path-assert&lt;/artifactId>
+			&lt;version>2.4.0&lt;/version>
+			&lt;scope>test&lt;/scope>
+		&lt;/dependency>
+		&lt;dependency>
+			&lt;groupId>com.jayway.jsonpath&lt;/groupId>
+			&lt;artifactId>json-path&lt;/artifactId>
+			&lt;version>2.4.0&lt;/version>
+			&lt;scope>test&lt;/scope>
+		&lt;/dependency>
+</code></pre>
