@@ -31,7 +31,7 @@ arului-apiservice API REST services using springboot JPA H2 hateoas HAL
 
 Note:
 If any error during build/runtime error related to jsonpath comment below lines from pom.xml and try
-
+<code>
 <dependency>
 			<groupId>com.jayway.jsonpath</groupId>
 			<artifactId>json-path-assert</artifactId>
@@ -44,3 +44,4 @@ If any error during build/runtime error related to jsonpath comment below lines 
 			<version>2.4.0</version>
 			<scope>test</scope>
 		</dependency>
+</code>
